@@ -760,9 +760,9 @@ img {
 }
 
 .checkbox-input:checked {
-    background-color: #4d5ae5;
-    border-radius: 2px;
-    fill: #f4f4fd;
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
     border: 1px solid #404bbf;
 }
 
@@ -790,7 +790,11 @@ img {
     align-items: center;
     justify-content: center;
     fill: transparent;
-    
+
+}
+
+.form-image {
+    color:#4d5ae5;
 }
 
 .input-button {
