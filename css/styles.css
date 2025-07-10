@@ -732,7 +732,7 @@ img {
 }
 
 .checkbox-field {
-    margin-top: 16px;
+    margin-bottom: 24px;
 }
 
 .form-checkbox {
@@ -799,7 +799,7 @@ img {
 
 .input-button:hover,
 .input-button:focus {
-    background-color: #404bbf; 
+    fill: #ffffff;
 }
 /* modal overlay stop */
 
