@@ -504,13 +504,15 @@ img {
 .subscribe-input {
     width: 264px;
     height: 40px;
-    padding: 8px 16px;
-    border: 1px solid #fff;
-    border-radius: 4px;
+    border: 1px solid #ffffff;
     background-color: transparent;
-    color: #ffffff;
     font-size: 12px;
-    outline: none;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #ffffff;
 }
 
 .subscribe-input:hover,
@@ -521,6 +523,7 @@ img {
 .subscribe-button {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 8px;
     padding: 8px 24px;
     background-color: #4d5ae5;
@@ -532,6 +535,9 @@ img {
     cursor: pointer;
     fill: #ffffff;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    min-width: 165px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
 .subscribe-button:hover,
@@ -540,6 +546,7 @@ img {
 }
 
 .subscribe-icon {
+    margin-left: 16px;
     fill: #fff;
 }
 /* footer stop */
@@ -647,6 +654,9 @@ img {
     line-height: 1.16;
     letter-spacing: 0.04em;
     color: #8e8f99;
+    line-height: 2;
+
+
 }
 
 .input-wrapper {
